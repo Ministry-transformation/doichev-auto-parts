@@ -36,7 +36,7 @@
     .catalog-status{display:flex;justify-content:space-between;align-items:center;gap:12px;min-height:28px;margin:0 0 10px;color:#c4d0d8;font-size:.88rem}
     .catalog-status strong{color:var(--lime)}
     .product{min-height:250px;padding:18px}
-    .product-visual{aspect-ratio:1.55;height:auto;margin:-18px -18px 15px;background:#0b1b29;border-bottom:1px solid #263a49;display:grid;place-items:center;overflow:hidden}
+    .product-visual{aspect-ratio:1;height:auto;margin:-18px -18px 15px;background:#0b1b29;border-bottom:1px solid #263a49;display:grid;place-items:center;overflow:hidden}
     .product-visual img{display:block;width:100%;height:100%;object-fit:contain}
     .product h3{margin:16px 0 7px}
     .product-code{overflow-wrap:anywhere}
@@ -52,7 +52,7 @@
     @media(max-width:1600px){.nav{gap:14px}.brand img{width:166px;height:52px}.navlinks{gap:14px;font-size:.82rem}.nav-actions{gap:9px}.nav-actions>.btn{padding:12px 13px;font-size:.84rem}.topbar{font-size:.76rem}}
     @media(max-width:1120px){.navlinks{display:none;position:absolute;top:76px;left:0;right:0;padding:18px 24px 24px;background:#0a1a28;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start}.navlinks.open{display:flex}.navlinks .mobile-cta{display:flex;align-self:stretch}.menu{display:grid;place-items:center;width:44px;height:44px}}
     
-    @media(max-width:680px){.product{min-height:0;padding:17px}.product-visual{aspect-ratio:1.55;height:auto;margin:-17px -17px 14px}.product-foot{align-items:flex-end}.catalog-status{font-size:.82rem}.filters{margin-right:-16px;padding-right:16px}.section-head h2{font-size:clamp(2rem,11vw,3rem)}}
+    @media(max-width:680px){.product{min-height:0;padding:17px}.product-visual{aspect-ratio:1;height:auto;margin:-17px -17px 14px}.product-foot{align-items:flex-end}.catalog-status{font-size:.82rem}.filters{margin-right:-16px;padding-right:16px}.section-head h2{font-size:clamp(2rem,11vw,3rem)}}
     /* Motion pass: restrained 2.5D depth, clear interaction feedback, and scroll reveals. */
     :root{--motion-ease:cubic-bezier(.2,.75,.25,1)}
     .navlinks a{position:relative;transition:color .22s var(--motion-ease)}
